@@ -1,0 +1,76 @@
+.titulo {
+    color: bisque;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    font-size: 30px;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    background-color: darkseagreen;
+    height: 4.5em;
+}
+
+.navOption {
+    color: darkblue;
+    margin:2em;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    top: 30%;
+}
+
+.footer {
+    color: black;
+    background-color: turquoise;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    background-color: cadetblue;
+    margin: 2em;
+    padding: 2em;
+}
+
+.image {
+    max-width: 250px;
+    max-height: 190px;
+    margin: 1em;
+}
+
+p {
+    margin: 1em;
+    font-size: 20px;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+label {
+    display: block;
+    width: 120px;
+}
+
+@media screen and (max-width: 1200px) {
+    .titulo {
+        font-size: 20px;
+    }
+    
+    .navOption {
+        font-size: 20px;
+    }
+}
